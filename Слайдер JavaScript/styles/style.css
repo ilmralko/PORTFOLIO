@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --back-color: rgb(52, 152, 219);
+    --main-color: rgb(13, 38, 55);
+    background-color: var(--back-color);
+}
+
+.swiper {
+    width: 60vw;
+    margin-top: 100px;
+    --swiper-navigation-color: var(--main-color);
+    --swiper-pagination-color: var(--main-color);
+}
+
+.swiper-slide {
+    height: 30vw;
+    color: var(--back-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-span {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    content: '';
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+    left: 11vw;
+    top: 41px;
+    background-image: url(../images/arrowLast.png);
+}
+
+.swiper-button-next {
+    left: 47.5vw;
+    top: 19px;
+    background-image: url(../images/arrowNext.png);
+}
+
+.swiper-button-prev:hover {
+    background-image: url(../images/arrowLastH.png);    
+}
+
+.swiper-button-next:hover {
+    background-image: url(../images/arrowNextH.png);    
+}
