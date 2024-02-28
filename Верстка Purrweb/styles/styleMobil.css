@@ -1,0 +1,489 @@
+@media screen and (min-width: 900px) and (max-width: 1439px) {
+    h2 {
+        font: 6.66vw/7.07vw "Title/T2_Bold_96";
+    }
+    h3 {
+        font: 4.4vw/4.71vw "Title/T3_Bold_64";
+    }
+    h4 {
+        font: 3.33vw/3.53vw "Title/T4_Bold_48";
+    }
+    .cookie p {
+        width: 58vw;
+    }
+    .btnAccept {
+        margin: 10px 2vw 0 0;
+    }
+    .btnDecline {
+        margin: 10px 3vw 0 0;
+    }
+    .everyone img {
+        width: 60vw;
+    }
+    .facts {
+        gap: 3.94vw;
+    }
+    .facts p {
+        font: 24px/28.8px "Subtitle/S2_SemiBold_24";
+    }
+    .why h3 {
+        font: 64px/67.84px "Title/T3_Bold_64";
+    }    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1240px) {
+    .why-grid-left,
+    .why-grid-right {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.39vw;
+        height: min-content;
+    }
+    .why-grid-1 h5 {
+        padding: 20px 0 20px 2.78vw;
+    }
+    .why-grid-1 p {
+        padding-left: 2.78vw;
+    }
+    .why-grid-2 h5 {
+        padding: 20px 2.2vw 20px 2.78vw;
+    }
+    .why-grid-3 h5 {
+        padding: 20px 0 20px 2.78vw;
+    }
+    .why-grid-4 h5 {
+        padding: 20px 2.78vw 20px;
+    }
+    .why-grid-1 h5,
+    .why-grid-2 h5,
+    .why-grid-3 h5,
+    .why-grid-4 h5,
+    .why-grid-1 p,
+    .why-grid-2 p,
+    .why-grid-3 p,
+    .why-grid-4 p {
+        width: 37.19vw;
+    }
+    .footer-store img {
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 450px) {    
+    /* Modal window */
+    .modal-content {
+        width: 82.67vw;
+        padding: 20px 4.26vw;
+        position: static;
+        margin-top: 40px;
+    }
+    input {
+        width: 80vw;
+    }
+    .modal-content .close {
+        font-size: 26px;
+        position: relative;
+        right: -77vw;
+        top: -5px;
+        border: none;
+        color: #B9B9B9;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 450px) {
+.modal-content .btnClose {
+        font: 20px/25.2px "Subtitle/S4_SemiBold_20";
+        background-color: #B9B9B9;
+        color: #FFFFFF;
+        padding: 16px 2.08vw;
+        border: 2px solid transparent;
+        border-radius: 16px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1194px) {
+    .about-budss {
+        height: 810px;
+    }
+    .about-budss>img {
+        position: relative;
+        bottom: 480px;
+        left: -70px;
+        z-index: -1;
+    }
+    .about-grid {
+        position: static;
+    }
+    .about-grid div {
+        width: 44.58vw;
+    }
+    .about-grid p {
+        font: 2.5vw/2.91vw "Subtitle/S3_Regular_24";
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    h2, h3 {
+        font: 10.67vw/11.31vw "Title/T6_Bold_40";
+    }
+    h4, h5 {
+        font: 8.53vw/9.05vw "Title/T7_Bold_32";
+    }
+    h5 {
+        color: #000000;
+    }
+    h6 {
+        font: 29.6px/13.6px "Subtitle/S1_SemiBold_36";
+        padding-left: 4px;
+    }
+
+    /* Cookie */
+    .cookie {
+        width: 89.33vw;
+        bottom: 20px;
+        margin-left: 5.33vw;
+        z-index: 5;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cookie p {
+        font: 5.33vw/7.47vw "Subtitle/S7_Light_20";
+        padding: 30px 0 40px;
+        width: 78.67vw;
+    }
+    .acceptDecline {
+        display: flex;
+        flex-direction: column;
+    }
+    .btnAccept {
+        padding: 16px 30.8vw;
+    }
+    .btnDecline {
+        margin: 5.33vw 0 8vw;
+        padding: 16px 30.8vw;
+    }
+    .btnClose {
+        padding: 16px 24.2vw;
+        font: 5.33vw/6.72vw "Subtitle/S4_SemiBold_20";
+    }
+    .closeMobil {
+        font-size: 26px;
+        position: relative;
+        right: -40vw;
+        top: 16px;
+        border: none;
+        color: #B9B9B9;
+        cursor: pointer;
+    }
+
+    
+    /* Button */
+    .btn,
+    .btnLet,
+    .btnAccept,
+    .btnDecline {
+        font: 5.33vw/6.72vw "Subtitle/S4_SemiBold_20";
+        padding: 16px 29vw;
+    }
+
+    /* Header */
+    .header-business,
+    .header-customers {
+        padding: 9px 10.67vw;
+    }
+    .header-business {
+        margin-left: 0;
+    }
+
+    /* Stickly header */
+    .sticky-header {
+        padding: 0 4.05vw 0;
+    }
+    .sticky-header img {
+        width: 27.96px;
+    }
+    .sticky-header button {
+        display: none;
+    }
+    .burgerMenuMobil {
+        display: flex;
+    }
+    .burgerMenu {
+        width: 100%;
+        height: 99%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: -1;
+        opacity: 0;
+        transform: scale(0);
+        transition: 0.9s;
+    }
+    .burgerMenu-content {
+        background-color: #181818;
+        width: 100%;
+        height: 140vh;
+    }
+    .burgerMenu-content button {
+        margin: 200px 0 70px 4.27vw;
+    }
+    .burgerMenu-content a {
+        margin: 16px 4.27vw 0;
+        display: block;
+        text-decoration: none;
+        font: 5.33vw/6.72vw "Subtitle/S5_Medium_20";
+        color: #FFFFFF;
+    }
+    .closeBurgerMenu {
+        font-size: 26px;
+        position: absolute;
+        right: 16px;
+        top: -90px;
+        border: none;
+        color: #B9B9B9;
+        cursor: pointer;
+    }
+
+    /* Everyone is an Influencer */
+    .everyone {
+        margin: 51px 0 0 4.27vw;
+    }
+    .everyone img {
+        height: 289.89px;
+        top: 600px;
+    }
+    .everyone p {
+        width: 91.46vw;
+    }
+
+    /* About Budss */
+    .about-budss {
+        height: max-content;
+        margin: 470px 0 40px 4.27vw;
+    }
+    .about-budss>img {
+        display: none;
+    }
+    .about p {
+        font: 24px/28.8px "Subtitle/S2_SemiBold_24";
+        width: 268px;
+        padding: 30px 0 40px;
+    }
+    .about p img {
+        top: -26px;
+        left: 39px;
+        width: 235px;
+    }
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+        position: static;
+    }
+    .about-grid div {
+        width: 89.6vw;
+    }
+    .about-grid p {
+        font: 4.27vw/5.37vw "Body/B2_Regular_16";
+    }
+
+    /* Phone */
+    .phone {
+        height: 340px;
+        background-image: url(../images/backphoneMobil.png);
+        background-position-x: -270px;
+        background-size: cover;
+        margin: 140px 0;
+    }
+    .phone div {
+        height: 461px;
+        top: -50px;
+    }
+
+    /* Facts */
+    .facts {
+        padding: 40px 0 0 4.27vw;
+        display: block;
+    }
+    .facts div {
+        display: flex;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .facts p {
+        font: 5.33vw/6.72vw "Subtitle/S4_SemiBold_20";
+        padding-left: 5.33vw;
+    }
+    .facts p br{
+        display: none;
+    }
+
+    /* Why Budss */
+    .why {
+        padding: 80px 0 0;
+        width: 320px;
+        margin: 0 auto;
+    }
+    .why p {
+        font: 24px/28.8px "Subtitle/S2_SemiBold_24";
+        padding-top: 20px;
+    }
+    .why p img {
+        top: -26px;
+        left: 4px;
+        width: 244px;
+    }
+    .why-grid-left,
+    .why-grid-right {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-left: 4.27vw;
+    }
+    .why-grid-left div,
+    .why-grid-right div {
+        height: fit-content;
+        border-radius: 20px;
+    }
+    .why-grid-left p,
+    .why-grid-right p {
+        font: 4.27vw/5.49vw "Body/B2_Regular_16";
+    }
+    .why-grid-1 {
+        background-image: url(../images/why-grid-1Mobil.png);
+    }
+    .why-grid-2 {
+        background-image: url(../images/why-grid-2Mobil.png);
+        background-size: cover;
+    }
+    .why-grid-3 {
+        background-image: url(../images/why-grid-3Mobil.png);
+        background-size: cover;
+    }
+    .why-grid-4 {
+        background-image: url(../images/why-grid-4Mobil.png);
+    }
+    .why-grid-1 h5,
+    .why-grid-2 h5,
+    .why-grid-3 h5,
+    .why-grid-4 h5 {
+        padding: 20px 0 20px 5.33vw;
+    }
+    .why-grid-1 p,
+    .why-grid-2 p,
+    .why-grid-3 p,
+    .why-grid-4 p {
+        padding-left: 5.33vw;
+    }
+    .why-grid-1 h5 {
+        width: 77.6vw;
+    }
+    .why-grid-2 h5 {
+        width: 77.33vw;
+    }
+    .why-grid-3 h5,
+    .why-grid-4 h5 {
+        width: 80.8vw;
+    }
+    .why-grid-1 p,
+    .why-grid-2 p,
+    .why-grid-3 p {
+        width: 80.8vw;
+    }
+    .why-grid-4 p {
+        width: 74.4vw;
+    }
+
+    /* Let your business grow*/
+    .let-brand {
+        padding: 40px 4.27vw 90px;
+    }
+    .let {
+        padding: 40px 5.33vw;
+    }
+    .btnLet {
+        padding: 16px 23vw;
+    }
+    .brand {
+        display: block;
+        padding: 40px 0;
+    }
+    .brand h2 {
+        width: 94.66vw;
+    }
+    .brand p {
+        width: 90.67vw;
+        padding: 20px 0;
+    }
+    .brand img {
+        position: static;
+        width: 92vw;
+    }
+    .companies img {
+        padding: 20px 0;
+    }
+    .companies {
+        text-align: justify;
+    }
+    .company1 {
+        width: 24.27vw;
+    }
+    .company2 {
+        width: 39.73vw;
+    }
+    .company3 {
+        width: 34.93vw;
+    }
+    .company4 {
+        width: 52.26vw;
+    }
+    .company5 {
+        width: 34.13vw;
+    }
+
+    /* Footer */
+    .footer {
+        margin: 20px 4.27vw;
+    }
+    .footer-main {
+        display: block;
+    }
+    .footer-main div {
+        flex-direction: column;
+    }
+    .footer-for {
+        padding: 40px 0 24px;
+    }
+    .footer-business,
+    .footer-customers,
+    .footer-termsMobil a  {
+        color: #FFFFFF;
+        padding: 0 0 16px 0;
+        text-decoration: none;
+        font: 5.33vw/6.72vw "Subtitle/S5_Medium_20";
+        display: block;
+    }
+    .footer-store button {
+        padding: 16px 8vw;
+        margin: 0 0 40px;
+    }
+    .footer-store img {
+        padding: 0 0 20px;
+    }
+    hr {
+        margin: 20px 0 10px;
+    }
+    .footer-copyright span {
+        font: 3.73vw/5.6vw "Body/B5_Light_14";
+    }
+    .footer-terms a {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 319px) {
+    html {
+        display: none;
+    }
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание PURRWEB</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styleMobil.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header-for">
+            <a class="header-business" href="#">For Business</a>
+            <a class="header-customers" href="#">For Customers</a>       
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <img onclick="closeModal()" class="close" src="./images/icon-button.png" alt="close">
+                    <form>
+                        <label for="name" id="labelName">Name</label>
+                        <input type="text" id="name" placeholder="Enter name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter email">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="tel" id="phonenumber" placeholder="+1 900 000 00 00">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" placeholder="Enter company">
+                        <label for="website">Website/Store URL</label>
+                        <input type="text" id="website" placeholder="Enter Website/Store URL">
+                    </form>
+                    <p>By submitting this form you are agreeing to Budss’s <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+                    <button class="btnClose" onclick="closeModal()">Contact sales</button>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <button class="cookieOpen" id="cookieOpen"></button>
+            <div class="cookie" id="cookie">
+                <img class="close" src="./images/icon-button.png" alt="close" onclick="closeCookie()">
+                <img class="closeMobil" src="./images/icon-button.png" alt="close" onclick="closeCookie()">
+                <p>This website uses cookies to ensure you get the best experience on our website. They also allow us to analyze user behavior in order to constantly improve the website for you.</p>
+                <div class="acceptDecline">
+                    <button class="btnAccept" onclick="closeCookie()">Accept</button>
+                    <button class="btnDecline" onclick="closeCookie()">Decline</button>
+                </div>
+            </div>
+        </article>
+
+        <nav class="sticky-header">
+            <div>
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="logo">
+                    <h6>budss</h6>
+                </a>
+            </div>
+            <button class="btn" onclick="showModal()">Contact sales</button>
+            <div class="burgerMenuMobil">
+                <img class="burgerMenu-img" src="./images/burgerMenuMobil.png" alt="burger-menu" onclick="showBurgerMenu()">
+            </div>
+        </nav>
+
+        <nav>
+            <div class="burgerMenu" id="burgerMenu">
+                <div class="burgerMenu-content">
+                    <button class="btn" onclick="showModal()">Contact sales</button>
+                    <div>
+                        <a href="#">For Business</a>
+                        <a href="#">For Customers</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms Of Use - Seller</a>
+                        <a href="#">Terms of Use - Sellers & Customers</a>
+                    </div>
+                    <img class="closeBurgerMenu" src="./images/icon-buttonMobil.png" alt="close" onclick="closeBurgerMenu()">
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="everyone">
+                <h2>Everyone<br>is an Influencer<br></h2>
+                <p>Budss is a payments as a service and WOM engine dedicated to acquisition and retention of customers to your business.</p>
+                <button class="btn" onclick="showModal()">Contact sales</button>
+                <img src="./images/everyone.png" alt="header">
+            </div>
+        </section>
+
+        <section>
+            <div class="about-budss">
+                <div class="about">
+                    <h2>About Budss</h2>
+                    <p>Payment as a service, powered seamlessly by our network of shoppers<img src="./images/line1.png" alt="line"></p>
+                </div>
+                <div class="about-grid">
+                    <div>
+                        <img src="./images/figureGrid1.png" alt="figure">
+                        <h4>Contactless</h4>
+                        <p>Budss uses near field communication (NFC) for making contactless payments.</p>
+                    </div>
+                    <div>
+                        <img src="./images/figureGrid2.png" alt="figure">
+                        <h4>Increased Buying Power</h4>
+                        <p>Returning customers spend up to 3X more.</p>
+                    </div>
+                    <div>
+                        <img src="./images/figureGrid3.png" alt="figure">
+                        <h4>Analytics<br>& Insights</h4>
+                        <p>Gain a holistic view into your customers’ buying behavior & purchasing patterns.</p>
+                    </div>
+                    <div>
+                        <img src="./images/figureGrid4.png" alt="figure">
+                        <h4>Fraud Protection</h4>
+                        <p>Budss handles all payments with a fraud prevention algorithm to flag high risk purchases & a user set PIN code to keep payment info secure.</p>
+                    </div>
+                </div>
+                <img src="./images/about.png" alt="about">
+            </div>
+        </section>
+
+        <section>
+            <div class="phone">
+                <div>
+                    <img src="./images/phone.png" alt="phone">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="facts">
+                <div>
+                    <h3>15%</h3>
+                    <p>Increase <br>in Purchase Amount</p>
+                </div>
+                <div>
+                    <h3>30%</h3>
+                    <p>Growth <br>in Annual Sales</p>
+                </div>
+                <div>
+                    <h3>10%</h3>
+                    <p>Growth in New <br>Customers</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <div class="why">
+                    <h3>Why Budss</h3>
+                    <p>We Provide Advanced Payment Solutions <br>To Grow Your Business<br><img src="./images/line2.png" alt="line"></p>
+                </div>
+                <div class="why-grid-left">
+                    <div class="why-grid-1">
+                        <h5>Turn your customers into loyal influencers</h5>
+                        <p>Budss helps businesses harness the exponential power of loyal customers for acquisition and retention.</p>
+                    </div>
+                    <div class="why-grid-2">
+                        <h5>Harness the power of buying in bulk</h5>
+                        <p>Get at least 2X more sales with Budss Buying Groups. Your customer base will grow exponentially as your customers add their friends & family to your personalized group.</p>
+                    </div>
+                </div>
+                <div class="why-grid-right">
+                    <div class="why-grid-3">
+                        <h5>Supercharge Loyalty With Instant Cash Back</h5>
+                        <p>Budss allows for shoppers to earn immediate cash back at their favorite stores.</p>
+                    </div>
+                    <div class="why-grid-4">
+                        <h5>Seasoned with AI and Gamification</h5>
+                        <p>AI programming creates a personalized customer journey, offering recommendations for their next purchase and optimizing rewards for after purchase.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="let-brand">
+                <div class="let">
+                    <h3>Let Your Business Grow</h3>
+                    <button class="btnLet" onclick="showModal()">Contact sales</button>
+                </div>
+                <div class="brand">
+                    <div>
+                        <h2>Your Brand Awareness Maters</h2>
+                        <p>Budss is a husle free solution to put your brand on any digital surface including Instagram, Facebook, Twitter and TikTok</p>
+                    </div>
+                    <img src="./images/social-sites.png" alt="social-sites">
+                </div>
+                <div class="companies">
+                    <img class="company1" src="./images/company1.png" alt="companies">
+                    <img class="company2" src="./images/company2.png" alt="companies">
+                    <img class="company3" src="./images/company3.png" alt="companies">
+                    <img class="company4" src="./images/company4.png" alt="companies">
+                    <img class="company5" src="./images/company5.png" alt="companies">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div>
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="logo">
+                    <h6>budss</h6>
+                </a>
+            </div>
+            <div class="footer-for">
+                <a class="footer-business" href="#">For Business</a>
+                <a class="footer-customers" href="#">For Customers</a>
+                <div class="footer-termsMobil">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms Of Use - Seller</a>
+                    <a href="#">Terms of Use - Sellers & Customers</a>
+                </div>
+            </div>
+            <div class="footer-store">
+                <button class="btn" onclick="showModal()">Contact sales</button>
+                <a href="#"><img src="./images/appstore.png" alt="AppStore"></a>
+                <a href=""><img src="./images/googleplay.png" alt="GooglePlay"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-copyright">
+            <span>© Copyright 2023, All Rights Reserved by Budss</span>
+            <div class="footer-terms">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms Of Use - Seller</a>
+                <a href="#">Terms of Use - Sellers & Customers</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+/* Title */
+@font-face {
+    font-family: "Title/T1_Bold_128"; 
+    src: url('..//fonts/Outfit-Bold.woff2') format('woff2'),
+        url('..//fonts/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Title/T2_Bold_96"; 
+    src: url('..//fonts/Outfit-Bold.woff2') format('woff2'),
+        url('..//fonts/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Title/T3_Bold_64"; 
+    src: url('..//fonts/Outfit-Bold.woff2') format('woff2'),
+        url('..//fonts/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Title/T4_Bold_48"; 
+    src: url('..//fonts/Outfit-Bold.woff2') format('woff2'),
+        url('..//fonts/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Title/T5_SemiBold_48"; 
+    src: url('..//fonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('..//fonts/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Title/T6_Bold_40"; 
+    src: url('..//fonts/Outfit-Bold.woff2') format('woff2'),
+        url('..//fonts/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Title/T7_Bold_32"; 
+    src: url('..//fonts/Outfit-Bold.woff2') format('woff2'),
+        url('..//fonts/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Title/T8_Bold_86"; 
+    src: url('..//fonts/Outfit-Bold.woff2') format('woff2'),
+        url('..//fonts/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Subtitle */
+@font-face { 
+    font-family: "Subtitle/S1_SemiBold_36"; 
+    src: url('..//fonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('..//fonts/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Subtitle/S2_SemiBold_24"; 
+    src: url('..//fonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('..//fonts/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Subtitle/S3_Regular_24"; 
+    src: url('..//fonts/Outfit-Regular.woff2') format('woff2'),
+        url('..//fonts/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Subtitle/S4_SemiBold_20"; 
+    src: url('..//fonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('..//fonts/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Subtitle/S5_Medium_20"; 
+    src: url('..//fonts/Outfit-Medium.woff2') format('woff2'),
+        url('..//fonts/Outfit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Subtitle/S6_Regular_20"; 
+    src: url('..//fonts/Outfit-Regular.woff2') format('woff2'),
+        url('..//fonts/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Subtitle/S7_Light_20"; 
+    src: url('..//fonts/Outfit-Light.woff2') format('woff2'),
+        url('..//fonts/Outfit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Body */
+@font-face { 
+    font-family: "Body/B1_Medium_16"; 
+    src: url('..//fonts/Outfit-Medium.woff2') format('woff2'),
+        url('..//fonts/Outfit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Body/B2_Regular_16"; 
+    src: url('..//fonts/Outfit-Regular.woff2') format('woff2'),
+        url('..//fonts/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Body/B3_Medium_14"; 
+    src: url('..//fonts/Outfit-Medium.woff2') format('woff2'),
+        url('..//fonts/Outfit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Body/B4_Regular_14"; 
+    src: url('..//fonts/Outfit-Regular.woff2') format('woff2'),
+        url('..//fonts/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Body/B5_Light_14"; 
+    src: url('..//fonts/Outfit-Light.woff2') format('woff2'),
+        url('..//fonts/Outfit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Body/B6_Light_14_Underline"; 
+    src: url('..//fonts/Outfit-Light.woff2') format('woff2'),
+        url('..//fonts/Outfit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Body/B7_Regular_12"; 
+    src: url('..//fonts/Outfit-Regular.woff2') format('woff2'),
+        url('..//fonts/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
