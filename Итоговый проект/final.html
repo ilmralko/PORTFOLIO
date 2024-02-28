@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Итоговая работа</title>
+    <link rel="icon" href="svg/svg-leaf.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/final.css">
+</head>
+
+<body>
+    <!-- Шапка сайта-->
+    <header class="d-flex-center " id="arrowUp">
+        <nav>
+            <table class="header-table">
+                <tr>
+                    <td><a href="#tea">Главная</a></td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="#categories">Категории</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td><a href="#facts">Факты</a></td>
+                </tr>
+            </table>
+        </nav>
+
+        <!-- Логотип -->
+        <nav class="header-logo d-flex-start-mobile">
+            <div>
+                <img src="svg/svg-teapot.svg" alt="Teapot">
+                <p>Китайский чай</p>
+            </div>
+        </nav>
+
+        <!-- Мобильные устройства -->
+        <nav>
+            <img class="header-menu-img" src="svg/svg-burgerMenu.svg" alt="Menu">
+            <div class="header-menu-mobile">
+                <a href="#tea">Главная</a>
+                <a href="#categories">Категории</a>
+                <a href="#facts">Факты</a>
+                <a href="#interesting">Интересное</a>
+                <a class="mobile" href="#gallery">Фотогалерея</a>
+                <a href="#feedback">Обратная связь</a>
+            </div>
+        </nav>
+
+        <!-- Планшеты -->
+        <nav class="header-table-mobile">
+            <table>
+                <tr>
+                    <td><a href="#tea">Главная</a></td>
+                    <td><a href="#categories">Категории</a></td>
+                    <td><a href="#facts">Факты</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#interesting">Интересное</a></td>
+                    <td><a href="#gallery">Фотогалерея</a></td>
+                    <td><a href="#feedback">Отклик</a></td>
+                </tr>
+            </table>
+        </nav>
+
+        <nav>
+            <table class="header-table">
+                <tr>
+                    <td colspan="2"></td>
+                    <td><a href="#feedback">Отклик</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="#gallery">Фотогалерея</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><a href="#interesting">Интересное</a></td>
+                    <td colspan="2"></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <!-- Главная -->
+        <section class="main-tea" id="tea">
+            <h1>ЧАЙ<br> (кит. 茶, "cha", что означает «молодой листок»)</h1>
+            <p> — напиток, получаемый варкой, завариванием и/или настаиванием листа чайного куста, который предварительно подготавливается специальным образом. Чаепитие как традиция появилось в Китае.</p>
+            <div class="main-tea-div">
+                <img class="main-tea-imgRight" src="./images/history.jpg" alt="History">
+                <div>
+                    <h4>История</h4>
+                    <p>Первоначально чай использовался в качестве лекарственного средства, а уже потом его стали употреблять в качестве напитка. Открытие чайных листьев показывает, что чай был выращен около 2100 лет назад во времена китайской династии Западная Хань (207 г. до н. э. – 9 г. н. э.), он был обнаружен Институтом археологии провинции Шэньси (Китай) во время раскопок мавзолея Хан Ян Лин в период с 1998 по 2005 год, что на несколько столетий старше, чем ранее обнаруженные находки.</p>
+                </div>
+            </div>
+            <div class="main-tea-div">
+                <img class="main-tea-imgLeft" src="./images/now.jpg" alt="Now">            
+                <div>
+                    <h4>Сегодня</h4>
+                    <p>Китай – родина чая и одна из самых передовых стран – производителей этого напитка. Китай неизменно остается лидером среди поставщиков – около 40% от доли мирового рынка, а это около 2,4 миллионов тонн чая в год. В основном, его выращивают в провинциях Юньнань, Гуандун и Чжэцзян. Китайский чай считается одним из лучших в мире, он представлен всеми шестью категориями, которые производятся из одного и того же чайного листа <b><i>Camellia sinensis</i></b>. Друг от друга они отличаются степенью ферментации и способом обработки.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Категории чая -->
+        <section class="main-categories" id="categories">
+            <h2>Категории чая</h2>
+            <div class="main-categories-grid" id="main-categories-grid">
+                <!-- <div class="main-category">
+                    <img class="main-categories-img" src="images/modal/red.png" alt="Black tea">
+                    <h4>Черный чай</h4>
+                    <p>Описание</p>
+                    <button class="main-btn" onclick="buttonClick()">Подробнее</button> 
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Модальное окно
+        <section class="d-flex-column main-modal" id="modal">
+            <div>
+                <img class="modal-img" id="modal-img" src="#" alt="#">
+                <h3 class="modal-title" id="modal-title"></h3>
+                <p class="modal-desc" id="modal-desc"></p>
+                <button class="modal-close" id="modal-close" onclick="closeModal()">Закрыть</button>
+            </div>
+        </section> -->
+
+        <!-- Факты о чае -->
+        <hr>
+        <section class="d-flex-column main-facts" id="facts">
+            <h2>Факты о чае</h2>
+            <div class="d-flex-spaceAr-facts">
+                <div>
+                    <h3>2100 лет</h3>
+                    <p>назад обнаружены чайные листья</p>
+                </div>
+                <div>
+                    <h3>300 хим. соединений</h3>
+                    <p>входит в состав чая</p>
+                </div>
+                <div>
+                    <h3>3 чашки чая</h3>
+                    <p>в день употребляют в Великобритании</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Интересное о чае -->
+        <section class="d-flex-column main-interesting" id="interesting">
+            <h2>Интересное о чае</h2>
+            <ul>
+                <li><b>Существует более 1500 сортов чая</b>
+                    <p>Вкус чая, как и вина, зависит от того, где он растет. А чаи, которые вы покупаете, чаще всего состоят из смеси разных сортов.</p>
+                </li>
+                <li><b>Раньше весь чай был зеленым</b>
+                    <p>До середины XVII века весь китайский чай был зеленым. По мере развития внешней торговли китайские производители обнаружили, что они могут сохранять чайные листья с помощью процесса ферментации. Полученный черный чай сохранял свой вкус и аромат дольше, чем более нежные зеленые чаи, и был лучше подготовлен для длительных поездок в другие страны.</p>
+                </li>
+                <li><b>Не всё то чай, что вы пьете</b>
+                    <p>Например, чай с мятой, любой травяной, шиповниковый чай – вовсе не настоящие чаи, это напитки на основе чая, их также называют тизаны. Запомните, чай должен быть получен из листьев растения <b><i>Camellia sinensis</i></b>.</p>
+                </li>
+                <li><b>Каждую секунду в мире выпивается 15 тысяx чашек чая</b>
+                    <p>В день, в среднем, в мире выпивают 3,7 миллиардов чашек!</p>
+                </li>
+                <li><b>В чае больше кофеина, чем в кофе</b>
+                    <p>Дело в том, что в чистом весе чайных листьев его, действительно, больше, но для полноценного и правильного заваривания вы используете гораздо меньше чая, чем кофе в процентном соотношении. Для сравнения: в чашке черного чая содержится примерно 40-70 мг кофеина, а в чашке черного кофе – 100-120 мг. </p>
+                </li>
+            </ul>
+        </section>
+        
+
+        <!-- Фотогалерея -->
+        <section class="main-gallery" id="gallery">
+            <h2>Фотогалерея</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper" id="swiper"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Обратная связь -->
+        <section class="d-flex-around main-feedback" id="feedback">
+            <img src="images/feedback.png" alt="Feedback">
+            <div class="d-flex-column main-feedback-info">
+                <h3>Обратная связь</h3>
+                <p>Узнали что-то новое о чае? Просим поделиться об этом с нами.</p>
+                <form>
+                    <input type="text" id="name" placeholder="Ваше имя">
+                    <textarea rows="14" id="textarea" placeholder="Напишите отзыв здесь!"></textarea>
+                    <div>
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Соглашаюсь с условиями передачи данных</label>
+                    </div>
+                    <input class="main-feedback-btn" type="submit" value="Отправить" onclick="submitClick()">
+                </form>
+            </div>
+            
+        </section>
+
+        <!-- Стрелка вверх -->
+        <section class="arrowUp" >
+            <a href="#arrowUp"><img src="svg/svg-arrowUp.svg" alt="Arrow up"></a>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <hr>
+    <footer>
+        <h4>Приятного чаепития!</h4>
+        <p>Вся информация любезно предоставлена:</p>
+        <div class="d-flex-center footer-links">
+            <div>
+                <p>Википедия</p>
+                <a href="https://ru.wikipedia.org/wiki/Чай"><img src="svg/svg-wikipedia.svg" alt="Wikipedia"></a>
+            </div>
+            <div>
+                <p>О трендах за чаем</p>
+                <a href="https://tea.ru/article/kakim-byvaet-chay-samyy-polnyy-gid-po-vidam-vashego-lyubimogo-napitka/"><img src="svg/tchk.JPG" alt="About tea"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="scripts/final.js"></script>
+</body>
+
+</html>
+
+
